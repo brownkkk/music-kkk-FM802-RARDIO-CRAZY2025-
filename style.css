@@ -1,5 +1,5 @@
 .next-button{
-  display:inline-block;
+display:inline-block;
   padding:10px 20px;
   background:#ff5500;
   color:white;
@@ -10,4 +10,20 @@
 
 .next-button:hover{
   background:#e64e00;
+}
+
+/* Teleは大きめ */
+.big-image{
+  width:100%;
+  max-width:1000px; /* 必要に応じて調整 */
+  display:block;
+  margin:20px auto;
+}
+
+/* Tele以外は小さめ */
+.normal-image{
+  width:100%;
+  max-width:600px; /* ここで小ささを指定 */
+  display:block;
+  margin:20px auto;
 }
